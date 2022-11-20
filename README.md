@@ -240,19 +240,19 @@ public class Perceptron : MonoBehaviour {
 Зададим в скрипте соответствующие таблице значения.
 
 
-![10](https://user-images.githubusercontent.com/106258306/202892207-65363a2d-eef4-49f5-8654-77e48b38967a.png)
+![9](https://user-images.githubusercontent.com/106258306/202892227-9698b46a-3a2c-43d2-9d03-27e7b0c817a9.png)
 
 
 Запустим сцену. В консоли вывелись значения. Перейдём в вкладку console:
 
-![9](https://user-images.githubusercontent.com/106258306/202892213-464f934a-94a2-4b1a-ab54-afeb531cc1aa.png)
+![10](https://user-images.githubusercontent.com/106258306/202892230-3bf4dd30-c8ab-4d20-80ef-05256fed8e2b.png)
 
 Систематизируем результаты:
 
 |Эпоха|Кол-во ошибок|
 |-----|-------------|
-|1|3|
-|2|2|
+|1|2|
+|2|3|
 |3|3|
 |4|2|
 |5|1|
