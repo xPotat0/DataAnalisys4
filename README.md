@@ -153,6 +153,7 @@ public class Perceptron : MonoBehaviour {
 
 Реализуем логические операции, используя 0 и 1.
 - Дизъюнкция:
+
 | a | b | result |
 |-|-|------|
 |0|0|0|
