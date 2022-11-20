@@ -160,3 +160,13 @@ public class Perceptron : MonoBehaviour {
 |0|1|1|
 |1|0|1|
 |1|1|1|
+Зададим в скрипте соответствующие таблице значения.
+
+
+![3](https://user-images.githubusercontent.com/106258306/202890989-403ac314-3616-4a1a-afce-1ecf81e19709.png)
+
+
+Запустим сцену. В консоли вывелись значения. Перейдём в вкладку console:
+
+![4](https://user-images.githubusercontent.com/106258306/202891116-c3fd9294-02da-4fab-8e3e-a624989874f4.png)
+
