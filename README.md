@@ -350,5 +350,5 @@ plt.show()
 ```
 При выполнении скрипта получится следующие графики:
 
-![era](https://user-images.githubusercontent.com/106258306/203932099-a349f346-960d-4073-92eb-b2bbf817f409.png)
+![era](https://user-images.githubusercontent.com/106258306/203932303-f6b50946-5644-4fff-a09e-6563557c54c9.png)
 
