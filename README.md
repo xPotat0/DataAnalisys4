@@ -310,3 +310,44 @@ public class Perceptron : MonoBehaviour {
  - Построить график зависимости количества эпох от ошибки обучения 
 
 ## Ход работы:
+Скопируем данные результатов обучения и построим по ним график. Используем для этого Python и библиотеку matplotlib.
+```python
+import matplotlib.pyplot as plt
+
+era = [1, 2, 3, 4, 5, 6, 7, 8]
+
+OR = [2, 1, 0, 0, 0, 0, 0, 0]
+AND = [3, 2, 3, 2, 1, 0, 0, 0]
+NAND = [2, 3, 3, 2, 1, 0, 0, 0]
+XOR = [3, 2, 3, 4, 4, 4, 4, 4]
+
+plt.subplot(2, 2, 1)
+plt.plot(era, OR)
+plt.title('OR', fontsize=25)
+plt.xlabel('Эпохи', fontsize=18)
+plt.ylabel('Кол-во ошибок', fontsize=16)
+
+plt.subplot(2, 2, 2)
+plt.plot(era, AND)
+plt.title('AND', fontsize=25)
+plt.xlabel('Эпохи', fontsize=18)
+plt.ylabel('Кол-во ошибок', fontsize=16)
+
+plt.subplot(2, 2, 3)
+plt.plot(era, NAND)
+plt.title('NAND', fontsize=25)
+plt.xlabel('Эпохи', fontsize=18)
+plt.ylabel('Кол-во ошибок', fontsize=16)
+
+plt.subplot(2, 2, 4)
+plt.plot(era, XOR)
+plt.title('XOR', fontsize=25)
+plt.xlabel('Эпохи', fontsize=18)
+plt.ylabel('Кол-во ошибок', fontsize=16)
+
+plt.subplots_adjust(wspace=0.3, hspace=0.8)
+plt.show()
+```
+При выполнении скрипта получится следующие графики:
+
+![era](https://user-images.githubusercontent.com/106258306/203931946-8d6624af-c557-47e3-9ff8-ae9a63524e31.png)
